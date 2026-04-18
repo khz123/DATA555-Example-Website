@@ -1,9 +1,25 @@
 name: "my-website"
+
+output:
+  html_document:
+    theme: yeti
+    css: style.css
+    includes: 
+      in_header: header.html
 navbar:
-  title: "My Test Website"
   left:
-    - text: "Home"
-      href: index.html
-    - text: "About"
-      href: about.html
-output_dir: docs
+  - text: Home
+    href: index.html
+    icon: fa-home
+  - text: About
+    href: about.html
+    icon: fa-book-open
+  - text: Projects
+    href: projects.html
+    icon: fa-computer
+  - text: CV
+    href: files/test_file.pdf
+    icon: fa-paperclip
+  right:
+  - href: https://github.com/khz123
+    icon: fa-github

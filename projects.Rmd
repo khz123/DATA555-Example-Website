@@ -1,0 +1,11 @@
+---
+title: "Projects"
+---
+
+### [DATA 550 website](https://bit.ly/info550)
+
+A jeykll website I built for previous iterations of this class
+
+### [`vaxstrat` R package](https://github.com/allicodi/vaxstrat)
+
+An R package for computing principal effects quantifying vaccine impact on post-infection endpoints.
