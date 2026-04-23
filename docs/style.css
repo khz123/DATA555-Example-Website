@@ -45,6 +45,7 @@ body {
 .project-card h3 {
   margin: 0 0 10px 0;
   font-size: 18px;
+  font-weight: 500;
   color: #1f1f1f;
 }
 
